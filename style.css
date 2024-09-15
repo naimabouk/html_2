@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+}
+.button-1 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    color: #FFFFFF;
+   
+    display: inline-block;
+    
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+   
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #F082AC;
+  }
