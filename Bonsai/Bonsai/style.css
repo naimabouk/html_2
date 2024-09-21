@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Begin Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #4c4d5f;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(242, 250, 255, 1) 30%);
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #00A37E;
+    border: none;
+    color: white;
+    border: 1px solid #00A37E;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #00A37E;
+    border: 1px solid #00A37E;
+}
+
+/* End Global Styles */
+
+/* Begin Navbar Styles */
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px 0;
+}
+
+header nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #4c4d5f;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem
+}
+
+.cta-container {
+    display: flex;
+    gap: 15px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dropdown svg {
+    fill: #4c4d5f;
+    stroke-width: 0.1px;
+}
+
+/* End Navbar Styles */
+
+/* Begin Main Styles */
+
+main {
+    max-width: 1100px;
+    margin: 150px auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px
+}
+
+.main-title {
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+.filters-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+#monthly {
+    font-weight: 500;
+}
+
+#yearly {
+    color: #868A97;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #D2D3E0;
+    border-radius: 3px;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card-description {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.card-price-container {
+    display: flex;
+    gap: 6px;
+}
+
+.card-price-currency {
+    align-self: flex-start;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card-price {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.card-price-duration {
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+.card-separator {
+    color: #01B289;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.card-list {
+    list-style: none;
+}
+
+.card-list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    width:100%;
+}
+
+.card-list li svg {
+    fill: #01B289;
+    min-width: 20px;
+}
+
+.card-btn {
+    margin-top: 40px;
+    padding: 25px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+#professional {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-badge {
+    position: absolute;
+    top: 50px;
+    right: -100px;
+    background-color: #01B289;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 100px;
+    transform: rotate(45deg);
+    text-align: center;
+}
+
+/* End Main Styles */
